@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Site</title>
+    <script>
+        const ws = new WebSocket('ws://localhost:3000');
+        ws.onmessage = function(event) {
+            if (event.data === 'refresh') {
+                location.reload();
+            }
+        };
+    </script>
+</head>
+<body>
+    <p>## Getting Started</p>
+<p>Step 1: Clone the repository to your local system. Ensure not to fork it.</p>
+<p>Step 2: Create a new branch - &quot;your_name_vidyalai&quot; in your local repository for making changes.</p>
+<p>Step 3: Install packages and make sure you are using Node.js version 18.20 or higher.</p>
+<pre><code class="language-bash">npm i
+</code></pre>
+<p>Step 4: Run the development server:</p>
+<pre><code class="language-bash">npm run dev
+</code></pre>
+<p>Open <a href="http://localhost:3000">http://localhost:3000</a> with your browser to see the result and complete the tasks mentioned below:</p>
+<h2>TASKS</h2>
+<p><strong>Note: These tasks need to be completed within 3.5 hours.</strong></p>
+<ul>
+<li>
+<p>[ ] Fix carousel scrolling UI: When navigation buttons are clicked, ensure a new image is shown. Additionally, center the carousel navigation buttons vertically relative to the image.</p>
+</li>
+<li>
+<p>[ ] Replace dummy images by fetching each album of post using &quot;https://jsonplaceholder.typicode.com/albums/1/photos&quot; in /api/v1/posts route.</p>
+</li>
+<li>
+<p>[ ] Make the top nav bar sticky during scrolling.</p>
+</li>
+<li>
+<p>[ ] Implement functionality to load more posts upon clicking the &quot;Load More&quot; button. Hide the &quot;Load More&quot; button if no posts exist.</p>
+</li>
+<li>
+<p>[ ] Display the user's name and email in each post. Show the first letter for both the first and last names.</p>
+<p><img src="https://github.com/vidyalai/interview-challenge-1/assets/67904627/a1dd3dca-27e8-427b-a6dc-41de00d15df1" alt="Screenshot from 2024-05-04 08-35-47"></p>
+</li>
+<li>
+<p>[ ] Convert <code>UserList</code> React class component to functional component and convert <code>witUserData</code> HOC (Higher order Component) to a custom React hooks</p>
+</li>
+<li>
+<p>[ ] Convert <code>useWindowWidth</code> hook to ContextAPI. Declare the ContextAPI globally and access the <code>isSmallerDevice</code> property.</p>
+</li>
+</ul>
+<h2>Submission</h2>
+<ul>
+<li>
+<p>Create a new public repository in your github account</p>
+</li>
+<li>
+<p>Push the changes from your local to the new repo on GitHub.</p>
+</li>
+<li>
+<p>Update the readme by putting a check mark against the tasks you have completed. If you have not completed all the tasks, make sure to tick all the relevant ones.</p>
+</li>
+<li>
+<p>Open a pull request from &quot;your_name_vidyalai&quot; to &quot;master&quot;
+Fill <a href="https://docs.google.com/forms/d/e/1FAIpQLSeACdInJitqQ8hncrJdsTYEXVuts0Rb_WlMhLihXz06MTFmwA/viewform">this form</a> with a link to the pull request</p>
+</li>
+</ul>
+<h2>Evaluation Criteria</h2>
+<ul>
+<li>Clarity and consistency of naming conventions.</li>
+<li>Effectiveness of code modularization.</li>
+<li>Adequacy and robustness of error handling mechanisms.</li>
+<li>Efficiency of code optimization techniques.</li>
+<li>Quality and comprehensiveness of code documentation.</li>
+</ul>
+
+</body>
+</html>

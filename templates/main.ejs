@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Site</title>
+    <script>
+        const ws = new WebSocket('ws://localhost:3000');
+        ws.onmessage = function(event) {
+            if (event.data === 'refresh') {
+                location.reload();
+            }
+        };
+    </script>
+</head>
+<body>
+    <%- content %>
+</body>
+</html>
