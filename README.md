@@ -58,6 +58,3 @@ Alternatively, see the GitHub documentation on [creating a pull request](https:/
 
 If you want to contact me, you can reach me at `rahul545436@gmail.com`.
 
-## License
-
-This project uses the following license: [MIT License](<link_to_license>).
