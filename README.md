@@ -1,6 +1,6 @@
-# Markdown to HTML Resume Converter
+# Markdown to HTML Converter
 
-This project is a simple, yet powerful tool that converts a Markdown resume into a static HTML website. It provides real-time preview capabilities, automatically rebuilding the site and refreshing the browser when changes are made to the source Markdown file.
+This project is a simple, yet powerful tool that converts a Markdown  into a static HTML website. It provides real-time preview capabilities, automatically rebuilding the site and refreshing the browser when changes are made to the source Markdown file.
 
 ## Features
 
@@ -26,11 +26,11 @@ To install the Markdown to HTML Resume Converter, follow these steps:
 ``` bash
 npm install
 ```
-## Using Markdown to HTML Resume Converter
+## Using Markdown to HTML Converter
 
 To use the Markdown to HTML Resume Converter, follow these steps:
 
-1. Place your Markdown resume in the `src` folder as `resume.md`.
+1. Place your Markdown in the `src` folder as `sample.md`.
 2. Run the converter:
 ```bash
 node index.js
@@ -40,11 +40,11 @@ node index.js
 
 ## Customizing the Template
 
-You can customize the HTML template by editing the `templates/resume.ejs` file. This file determines the overall structure and style of your resume website.
+You can customize the HTML template by editing the `templates/main.ejs` file. This file determines the overall structure and style of your resume website.
 
-## Contributing to Markdown to HTML Resume Converter
+## Contributing to Markdown to HTML Converter
 
-To contribute to Markdown to HTML Resume Converter, follow these steps:
+To contribute to Markdown to HTML Converter, follow these steps:
 
 1. Fork this repository.
 2. Create a branch: `git checkout -b <branch_name>`.
