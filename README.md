@@ -16,9 +16,9 @@ Before you begin, ensure you have met the following requirements:
 - You have installed Node.js (version 12.0 or later recommended)
 - You have a basic understanding of Markdown, HTML, and JavaScript
 
-## Installing Markdown to HTML Resume Converter
+## Installing Markdown to HTML Converter
 
-To install the Markdown to HTML Resume Converter, follow these steps:
+To install the Markdown to HTML Converter, follow these steps:
 
 1. Clone the repository:
 2. Navigate to the project directory:
